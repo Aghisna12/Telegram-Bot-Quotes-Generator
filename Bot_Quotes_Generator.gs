@@ -47,7 +47,7 @@ function buatQuotes(text, by) {
   if (text) {
   
     //menggunakan versi web google app script(ada warning header)
-    var url = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?screenshot=true&url=" + url_hasil_deploy + "?" + encodeURIComponent(text);
+    //var url = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?screenshot=true&url=" + url_hasil_deploy + "?" + encodeURIComponent(text);
     
     //menggunakan static site github(tanpa warning header)
     var url = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?screenshot=true&url=https://aghisna12.github.io/belajar/QuotesGenerator.html?" + encodeURIComponent(text);
